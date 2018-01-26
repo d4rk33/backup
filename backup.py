@@ -45,12 +45,6 @@ if not source_dir.endswith(os.sep):
 
 if len(mask) == 0:
     mask.append('')
-#else:
-#    for ex in args.ext:
-#        if ex.upper() not in mask:
-#            mask.append(ex.upper())
-#        if ex.lower() not in mask:
-#            mask.append(ex.lower())
 
 if not os.path.exists(temp_dir):
         os.makedirs(temp_dir, mode=0o777, exist_ok=False)
